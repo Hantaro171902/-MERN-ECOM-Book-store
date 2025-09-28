@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import "tailwindcss";
 
-@theme {
+:root {
   --font-sans: "Nunito Sans", "Montserrat", sans-serif, system-ui, ui-sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -10,10 +10,9 @@
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Nunito Sans", sans-serif;
   
-  --color-primary:    '#FFCE1A';
-  --color-secondary:  '#0D0842';
-  --color-black-bg:   '#F3F3F3';
-  --color-favorite:   '#FF58';
-  --color-primary: '#FFCE1A';
-
-}
+  --color-primary:    #FFCE1A;
+  --color-secondary:  #0D0842;
+  --color-black-bg:   #F3F3F3;
+  --color-favorite:   #FF5833;
+  --color-primary:    #FFCE1A;
+} 
